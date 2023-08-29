@@ -40,26 +40,8 @@ module "vpc" {
             subnet_name           = var.subnet1
             subnet_ip             = var.subnet_ip1
             subnet_region         = var.region
-        },
-        {
-            subnet_name           = var.subnet2
-            subnet_ip             = var.subnet_ip2 
-            subnet_region         = var.region
-            subnet_private_access = "true"
-            subnet_flow_logs      = "true"
-            description           = "This subnet has a description"
-        },
-        {
-            subnet_name               = var.subnet3
-            subnet_ip                 =  var.subnet_ip3
-            subnet_region             = var.region
-            subnet_flow_logs          = "true"
-            subnet_flow_logs_interval = "INTERVAL_10_MIN"
-            subnet_flow_logs_sampling = 0.7
-            subnet_flow_logs_metadata = "INCLUDE_ALL_METADATA"
         }
-    ]
-
+        
  
 
     secondary_ranges = {
@@ -135,16 +117,6 @@ module "subnet-iam-bindings" {
 #     }
 #   ]
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

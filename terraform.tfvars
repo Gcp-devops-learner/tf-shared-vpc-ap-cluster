@@ -15,23 +15,23 @@ cluster_name = "gke-cluster-test"
 
 network_name = "host-vpc"
 
-region = "us-east1" 
+region = "europe-west8" 
 
 subnets_iam = [
-    "subnet-01","subnet-02", "subnet-03"
+    "subnet-01"
 ]
 
 subnet1 = "subnet-01"
 
-subnet2 = "subnet-02"
+# subnet2 = "subnet-02"
 
-subnet3 = "subnet-03"
+# subnet3 = "subnet-03"
 
-subnet_ip1 = "10.10.10.0/24"
+subnet_ip1 = "10.0.0.0/24"
 
-subnet_ip2 = "10.10.20.0/24"
+# subnet_ip2 = "10.10.20.0/24"
 
-subnet_ip3 = "10.10.30.0/24"
+# subnet_ip3 = "10.10.30.0/24"
 
 ip-range-pods-gke-autopilot-private = "ip-range-pods-gke-autopilot-private"
 

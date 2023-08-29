@@ -45,30 +45,30 @@ variable "subnet1" {
     description = "The  subnets being created"
 }
 
-variable "subnet2" {
-  type        = string
-    description = "The  subnets being created"
-}
+# variable "subnet2" {
+#   type        = string
+#     description = "The  subnets being created"
+# }
 
-variable "subnet3" {
-  type        = string
-  description = "The  subnets being created"
-}
+# variable "subnet3" {
+#   type        = string
+#   description = "The  subnets being created"
+# }
 
 variable "subnet_ip1" {
   type        = string
   description = "The  subnets ip being created"
 }
 
-variable "subnet_ip2" {
-  type        = string
-  description = "The  subnets ip being created"
-}
+# variable "subnet_ip2" {
+#   type        = string
+#   description = "The  subnets ip being created"
+# }
 
-variable "subnet_ip3" {
-  type        = string
-  description = "The  subnets ip being created"
-}
+# variable "subnet_ip3" {
+#   type        = string
+#   description = "The  subnets ip being created"
+# }
 
 variable "subnets_iam" {
   type        = list(string)
