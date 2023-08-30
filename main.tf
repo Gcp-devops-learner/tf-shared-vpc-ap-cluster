@@ -41,7 +41,7 @@ module "vpc" {
             subnet_ip             = var.subnet_ip1
             subnet_region         = var.region
         }
-        
+        ]
  
 
     secondary_ranges = {
